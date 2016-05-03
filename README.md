@@ -3,7 +3,7 @@
 Example
 
  ```
-.input {
+    .input {
       --paper-input-container-input: {
         line-height: 25px;
       };
