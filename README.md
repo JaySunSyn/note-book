@@ -2,7 +2,8 @@
 
 Example
 
-`    .input {
+ ```
+.input {
       --paper-input-container-input: {
         line-height: 25px;
       };
@@ -12,7 +13,8 @@ Example
 
     <note-book>
       <paper-textarea class="input"></paper-textarea>
-    </note-book>`
+    </note-book>
+ ```
 
 Demo:
 [Componentpage](http://jaysunsyn.github.io/note-book/)
