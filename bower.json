@@ -1,0 +1,30 @@
+{
+  "name": "note-book",
+  "version": "1.0.7",
+  "authors": [
+    "Jalal Fathi <jfathi.mail@gmail.com>"
+  ],
+  "description": "An element providing a note book style wrapper.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed",
+    "notebook",
+    "input"
+  ],
+  "main": "note-book.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/jaysunsyn/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "paper-input": "^1.1.11"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
+  }
+}
