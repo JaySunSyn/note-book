@@ -1,4 +1,5 @@
 # note-book
+Gives an Element a notebook style background.
 
 Example
 
