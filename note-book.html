@@ -33,6 +33,7 @@ The following custom properties and mixins are available for styling:
 Custom property | Description | Default
 ----------------|-------------|----------
 `--input-wrapper` | Mixin applied to the input wrapper | `{}`
+`--note-book-title` | Mixin applied to the title div | `{}`
 
 This element is `display:block` by default. 
 The line height of the note book is `25px`.
@@ -57,15 +58,31 @@ The line height of the note book is `25px`.
         border-radius: 3px;
         @apply(--input-wrapper);
       }
+
+      .input-wrapper .title {
+        font-size: 35px;
+        letter-spacing: -0.1px;
+        color: #7e7e7e;
+        @apply(--note-book-title);
+      }
     </style>
     <div class="input-wrapper">
+      <div class="title">[[title]]</div>
       <content></content>
     </div>  
   </template>
 
   <script>
     Polymer({
-      is: 'note-book'
+      is: 'note-book',
+
+      properties: {
+        title: {
+          type: String,
+          value: '',
+          notify: true
+        }
+      }
     });
   </script>
 </dom-module>
