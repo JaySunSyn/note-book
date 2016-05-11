@@ -12,7 +12,7 @@ Example
 
     ...
 
-    <note-book>
+    <note-book title="My Notebook">
       <paper-textarea class="input"></paper-textarea>
     </note-book>
  ```
